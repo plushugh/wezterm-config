@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
-local font = wezterm.font("MonaspiceKr Nerd Font Mono")
+local font = wezterm.font("MonaspiceKr Nerd Font")
 
 config.color_scheme = "tokyonight_night"
 
