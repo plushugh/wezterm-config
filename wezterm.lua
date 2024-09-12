@@ -1,12 +1,13 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
-local font = wezterm.font("MonaspiceKr Nerd Font")
+local font = wezterm.font("CommitMonoNatural Nerd Font")
 
 config.color_scheme = "tokyonight_night"
 
 config.font = font
 config.font_size = 15
+config.line_height = 1.1
 
 config.window_decorations = "RESIZE"
 config.use_fancy_tab_bar = false
