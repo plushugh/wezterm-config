@@ -16,6 +16,9 @@ config.inactive_pane_hsb = {
 	brightness = 0.6,
 }
 
+config.initial_cols = 120
+config.initial_rows = 40
+
 local act = wezterm.action
 
 config.leader = { key = "a", mods = "CTRL" }
